@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnhome"
+                android:layout_width="230dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/twitterlogo">
+
+            </Button>
+
+            <Button
+                android:id="@+id/btncomment"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/comment"></Button>
+
+            <Button
+                android:id="@+id/btnsearch"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/research1">
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnhome1"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/twitter_logo_transparent_background">
+
+            </Button>
+
+            <Button
+                android:id="@+id/btncomment"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="80dp"
+                android:background="@drawable/list"
+                android:text="List"
+                android:textSize="20dp"
+                tools:ignore="DuplicateIds">
+
+            </Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnMention"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/act">
+
+            </Button>
+
+            <Button
+                android:id="@+id/btreweet"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="80dp"
+                android:background="@drawable/boxxx"
+                android:text="Message">
+
+            </Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/urtu4"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/user">
+
+            </Button>
+
+            <Button
+                android:id="@+id/btreweet2"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="80dp"
+                android:background="@drawable/retweets">
+
+            </Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnMention1"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/research1">
+
+            </Button>
+
+            <Button
+                android:id="@+id/btreweet1"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="80dp"
+                android:background="@drawable/demandtwi">
+
+            </Button>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>
